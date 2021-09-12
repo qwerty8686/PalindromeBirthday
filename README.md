@@ -1,2 +1,2 @@
 # PalindromeBirthday
-Created with CodeSandbox
+An App which checks whether your birthday is palindrome or not.
