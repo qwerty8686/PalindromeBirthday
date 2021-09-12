@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+body {
+  /* background-color: rgb(26, 104, 221); */
+  background: linear-gradient(#be185d, lightgrey) fixed;
+  color: white;
+}
+
+div {
+  text-align: center;
+  height: 100%;
+}
+
+.message {
+  text-align: center;
+  font-size: large;
+}
+.margin-top {
+  margin-top: 3rem;
+}
+#button {
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.2rem 1rem;
+}
+.card {
+  border: 4px solid;
+  border-radius: 2rem;
+  width: fit-content;
+  display: block;
+  margin: auto;
+  padding: 0rem 2rem 2rem 2rem;
+}
+.txt-color {
+  color: #1f2937;
+}
+button:hover {
+  background-color: #be185d;
+  color: white;
+}
