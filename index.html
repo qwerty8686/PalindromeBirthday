@@ -6,19 +6,33 @@
   </head>
 
   <body>
-    <div class="card">
-      <h1 class="margin-top">Palindrome Birthday ✨</h1>
-      <h2>
-        This is to check if your Birthday is Palindrome
-      </h2>
-      <h4 class="txt-color">
-        (Not only checking in ddmmyyyy format but also in mmddyyyy, yyyymmdd,
-        yymmdd)
-      </h4>
-      <input type="date" class="input" /><br /><br />
-      <button class="btn" id="button">Check</button>
-      <h2 class="message"></h2>
-    </div>
+    <form onsubmit="return false">
+      <div class="card">
+        <h1 class="margin-top">Palindrome Birthday ✨</h1>
+        <h2>
+          This is to check if your Birthday is Palindrome
+        </h2>
+        <h4 class="txt-color">
+          (Not only checking in ddmmyyyy format but also in mmddyyyy, yyyymmdd,
+          yymmdd)
+        </h4>
+        <input type="date" class="input" required /><br /><br />
+        <button class="btn" id="button">Check</button>
+        <h2 class="message"></h2>
+        <footer>
+          <h4>&copy; | 2021 | Rohit</h4>
+          <a href="https://github.com/qwerty8686" target="_blank"
+            ><img src="/src/github.png" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/gundarohit26/" target="_blank"
+            ><img src="/src/linkedin.png" alt=""
+          /></a>
+          <a href="https://twitter.com/qwerty868686" target="_blank"
+            ><img src="/src/twitter.png" alt=""
+          /></a>
+        </footer>
+      </div>
+    </form>
     <script src="src/index.js"></script>
   </body>
 </html>
